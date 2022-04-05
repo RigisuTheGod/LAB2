@@ -93,7 +93,6 @@ class Ui_MainWindow(object):
                         print(entry_text)
                         entry_text = text_bin(entry_text)
                         print(entry_text)
-                        n_sum = self.sum_count.value()
                         summator = []
                         reg = self.reg.text()
                         reg = reg + " "
@@ -219,7 +218,6 @@ class Ui_MainWindow(object):
                         print("DECODE___________________")
 
                         coded_text = self.coded_text.text()
-                        n_sum = self.sum_count.value()
                         print(coded_text)
 
                         summator = []
